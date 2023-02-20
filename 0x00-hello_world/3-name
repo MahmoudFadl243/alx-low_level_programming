@@ -1,13 +1,12 @@
-#!/bin/bash
-gcc-S-masm=intel$CFILE
-root@b974b8789248:/alx-low_level_programming/0x00-hello_world#cat101-quote.c
-#include<unistd.h>
+#include<stdio.h>
+
 /**
-*main-GuessWhat!!??ThisisaDescription
-*Return:0(Success)
-*/
-intmain(void)
+ * main - GuessWhat!!??ThisisaDescription
+ * Return: 0(Success)
+ */
+
+int main(void)
 {
-write(2,"andthatpieceofartisuseful\"-DoraKorpar,2015-10-19\n",59);
-return(1);
+	puts("\"Programmingislikebuildingamultilingualpuzzle");
+	return(0);
 }
