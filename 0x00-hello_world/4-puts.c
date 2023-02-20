@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * main - GuessWhat!!??ThisisaDescription
- * Return: 0(Success)
+ * main - Guess What !!?? This is a Description
+ * Return: 0 (Success)
  */
 
 int main(void)
 {
-	puts("\"Programmingislikebuildingamultilingualpuzzle");
-	return(0);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
