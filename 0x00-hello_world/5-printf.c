@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-*main-GuessWhat!!??ThisisaDescription
-*Return:0(Success)
+*main - Guess What !!?? This is a Description
+* Return: 0 (Success)
 */
-intmain(void)
+int main(void)
 {
-printf("withpropergrammar,buttheoutcomeisapieceofart,\n");
-return(0);
+	printf("with proper grammar,but the outcome is a piece of art,\n");
+	return(0);
 }

@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
-*main-GuessWhat!!??ThisisaDescription
-*Return:0(Success)
+* main - Guess What !!?? This is a Description
+* Return: 0 (Success)
 */
-intmain(void)
+int main(void)
 {
-chara;
-intb;
-longintc;
-longlongintd;
-floatf;
-printf("Sizeofachar:%lubyte(s)\n",(unsignedlong)sizeof(a));
-printf("Sizeofanint:%lubyte(s)\n",(unsignedlong)sizeof(b));
-printf("Sizeofalongint:%lubyte(s)\n",(unsignedlong)sizeof(c));
-printf("Sizeofalonglongint:%lubyte(s)\n",(unsignedlong)sizeof(d));
-printf("Sizeofafloat:%lubyte(s)\n",(unsignedlong)sizeof(f));
-return(0);
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Sizeofanint: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+	return (0);
 }
