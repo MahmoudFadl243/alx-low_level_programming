@@ -1,26 +1,23 @@
-#include <stdio.h>
-#include "main.h"
+#ifndef MAIN_H
+#define MAIN_H
 
 /**
- * more_numbers - prints numbers to 14
- *
- * Return: returns nothing
+ * main - header file for prototypes
+ * void prototypes (void)
+ * int prototypes (int)
  */
 
-void more_numbers(void)
-{
-	int n1, n2;
+int _putchar(char);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
+void print_numbers(void);
+void print_most_numbers(void);
+void more_numbers(void);
+void print_line(int n);
+void print_diagonal(int n);
+void print_square(int size);
+void print_triangle(int size);
+void print_number(int n);
 
-	for (n1 = 0; n1 < 10; n1++)
-	{
-		for (n2 = 0; n2 <= 14; n2++)
-		{
-			if (n2 > 9)
-			{
-				putchar((n2 / 10) + '0');
-			}
-			putchar((n2 % 10) + '0');
-		}
-		putchar(10);
-	}
-}
+#endif /* MAIN_H */
