@@ -1,5 +1,7 @@
 #include "main.h"
-
+/**
+ * this is a Description
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
